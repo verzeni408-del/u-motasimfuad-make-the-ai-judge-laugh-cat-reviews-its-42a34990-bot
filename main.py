@@ -1,20 +1,15 @@
-"""One-star review from a cat that has never once been let through
-a door at the right moment.
+"""One-star review from a cat that runs the feeding schedule.
 
-Entry for the make.fun competition
-u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990.
-
-Running this program writes the review to /output/entry.txt
-(or $OUTPUT_PATH when set): exactly one line, no trailing newline.
+The human fills the bowl at 6 AM sharp and still looks shocked
+when the screaming starts at 5:59, as if the timetable were his.
 """
 
 import os
 from pathlib import Path
 
 CAT_REVIEW = (
-    "One star. She opens the door, watches me stare at it, "
-    "then closes it again. Four years in this house and I still "
-    "have no idea what is on the other side."
+    "One star. He fills my bowl at 6 AM sharp and still looks "
+    "shocked when I scream at 5:59, like the schedule was his idea."
 )
 
 
